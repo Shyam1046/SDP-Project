@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom */
+:root{
+  --primary: #4f46e5;
+  --accent: #06b6d4;
+}
+body { @apply bg-gradient-to-br from-slate-50 to-white; }
+.card { @apply bg-white rounded-xl shadow p-4; }
+.sidebar { min-height: 100vh; }
